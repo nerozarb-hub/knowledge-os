@@ -5,8 +5,8 @@ document_type: "readme"
 agent_use: true
 confidence: "high"
 freshness_sensitive: false
-last_extracted: "2026-08-29"
-status: "in_progress"
+last_extracted: "2026-08-30"
+status: "complete-with-drive-upload-pending"
 tags: [knowledge-os, notebooklm, provenance, retrieval]
 ---
 
@@ -14,7 +14,7 @@ tags: [knowledge-os, notebooklm, provenance, retrieval]
 
 ## Purpose
 
-This is the canonical local working copy for the source-grounded extraction of NEROZARB's NotebookLM library. It converts source material into retrievable principles, strategies, tactics, SOPs, prompts, rubrics, examples, failure modes, and agent directives without treating NotebookLM material as automatic operating authority.
+This is the canonical local working copy of NEROZARB's source-grounded NotebookLM extraction. It converts 28 notebooks and 2,213 observed sources into retrievable principles, strategies, tactics, SOPs, prompts, rubrics, examples, failure modes, decision rules, and cross-domain operating systems.
 
 ## Canonical Location
 
@@ -22,29 +22,38 @@ This is the canonical local working copy for the source-grounded extraction of N
 
 ## Current State
 
-Extraction is in progress. Source-derived files must remain `draft` or `in_progress` until their source coverage and quality checks pass. A file is not canonical merely because it exists.
+- 28/28 target notebooks processed.
+- 2,213/2,213 observed sources indexed with persistent IDs and dispositions.
+- 396 sources explicitly represented by exact title; 1,817 honestly marked `PARTIALLY_EXTRACTED`.
+- 14 cross-notebook master OS files plus dedicated libraries and quick references.
+- Structural/document QA passed at 8.42/10 with documented source-depth caveats.
+- Private GitHub mirror published.
+- Google Drive upload awaits action-time confirmation.
 
 ## Governing Rules
 
-- Every notebook and source receives a persistent ID.
-- Every accessible source receives a disposition.
-- Important claims retain source provenance.
+- Current CEO Brain authority and client truth outrank this supporting research.
+- Every source has a persistent ID; titles and NotebookLM UUIDs are metadata.
 - Facts, principles, synthesis, inference, and hypotheses remain distinct.
-- Freshness-sensitive platform knowledge carries dates and caveats.
-- Contradictions are preserved and resolved contextually, never hidden.
-- No credentials, cookies, browser profiles, tokens, or private keys may enter this folder.
-- The local copy is canonical; Drive and GitHub are mirrors, not competing versions.
+- Platform/model knowledge is freshness-sensitive.
+- Contradictions are preserved and resolved contextually.
+- No credentials, cookies, browser profiles, tokens, or private keys belong here.
+- The local copy is canonical; mirrors are synchronized destinations.
 
 ## Primary Navigation
 
+- [Agent retrieval guide](AGENT_RETRIEVAL_GUIDE.md)
 - [Master index](MASTER_INDEX.md)
 - [Extraction ledger](MASTER_EXTRACTION_LEDGER.md)
 - [Source coverage](SOURCE_COVERAGE.md)
-- [Agent retrieval guide](AGENT_RETRIEVAL_GUIDE.md)
+- [QA audit](QA_AUDIT.md)
+- [Final extraction report](FINAL_EXTRACTION_REPORT.md)
 - [Knowledge graph](KNOWLEDGE_GRAPH.md)
 - [Improvement loop](KNOWLEDGE_IMPROVEMENT_LOOP.md)
 - [Changelog](CHANGELOG.md)
 
-## Source Authority
+## External Mirrors
 
-NotebookLM is a supporting research and reference system. Extracted material does not override current NEROZARB constitution, authority rules, verified business state, client-specific truth, or approved SOPs.
+- Private GitHub: [nerozarb-hub/knowledge-os](https://github.com/nerozarb-hub/knowledge-os)
+- Google Drive: pending confirmed upload to `Knowledge Base/Knowledge OS`.
+

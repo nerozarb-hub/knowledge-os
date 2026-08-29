@@ -12,18 +12,20 @@ tags: [routing, retrieval, index]
 
 # Master Index
 
-The local Knowledge OS contains 103 Markdown artifacts. Start with the [Agent Retrieval Guide](AGENT_RETRIEVAL_GUIDE.md); use source indexes only when provenance or coverage matters.
+The local Knowledge OS contains 105 Markdown artifacts. Start with the [Agent Retrieval Guide](AGENT_RETRIEVAL_GUIDE.md); use source indexes only when provenance or coverage matters.
 
 | File | Domain | Purpose | When Agent Should Retrieve | Confidence | Freshness Sensitive | Status |
 |---|---|---|---|---|---|---|
 | [00_META/AGENT_RETRIEVAL_GUIDE.md](AGENT_RETRIEVAL_GUIDE.md) | Meta | Deep reusable knowledge module | Maintaining, routing, or auditing the OS | high | true | canonical |
 | [00_META/CHANGELOG.md](CHANGELOG.md) | Meta | Knowledge OS governance or reference | Maintaining, routing, or auditing the OS | high | true | active |
+| [00_META/FINAL_EXTRACTION_REPORT.md](FINAL_EXTRACTION_REPORT.md) | Meta | Completion, storage, gaps, and loading strategy | Maintaining, routing, or auditing the OS | high | true | complete-with-drive-upload-pending |
 | [00_META/KNOWLEDGE_GRAPH.md](KNOWLEDGE_GRAPH.md) | Meta | Knowledge OS governance or reference | Maintaining, routing, or auditing the OS | high | false | canonical |
 | [00_META/KNOWLEDGE_IMPROVEMENT_LOOP.md](KNOWLEDGE_IMPROVEMENT_LOOP.md) | Meta | Knowledge OS governance or reference | Maintaining, routing, or auditing the OS | high | false | canonical |
-| [00_META/MASTER_EXTRACTION_LEDGER.md](MASTER_EXTRACTION_LEDGER.md) | Meta | Extraction and completeness control | Maintaining, routing, or auditing the OS | high | true | qa |
-| [00_META/MASTER_INDEX.md](MASTER_INDEX.md) | Meta | Knowledge OS governance or reference | Maintaining, routing, or auditing the OS | high | true | in_progress |
-| [00_META/README.md](README.md) | Meta | Knowledge OS governance or reference | Maintaining, routing, or auditing the OS | high | false | in_progress |
-| [00_META/SOURCE_COVERAGE.md](SOURCE_COVERAGE.md) | Meta | Extraction and completeness control | Maintaining, routing, or auditing the OS | high | true | qa |
+| [00_META/MASTER_EXTRACTION_LEDGER.md](MASTER_EXTRACTION_LEDGER.md) | Meta | Extraction and completeness control | Maintaining, routing, or auditing the OS | high | true | complete |
+| [00_META/MASTER_INDEX.md](MASTER_INDEX.md) | Meta | Knowledge OS governance or reference | Maintaining, routing, or auditing the OS | high | true | canonical |
+| [00_META/QA_AUDIT.md](QA_AUDIT.md) | Meta | Quality validation and promotion gate | Maintaining, routing, or auditing the OS | high | true | passed-with-caveats |
+| [00_META/README.md](README.md) | Meta | Knowledge OS governance or reference | Maintaining, routing, or auditing the OS | high | false | complete-with-drive-upload-pending |
+| [00_META/SOURCE_COVERAGE.md](SOURCE_COVERAGE.md) | Meta | Extraction and completeness control | Maintaining, routing, or auditing the OS | high | true | complete |
 | [01_CORE/AGENT_OPERATING_RULES.md](../01_CORE/AGENT_OPERATING_RULES.md) | 01_CORE | Deep reusable knowledge module | Relevant domain task | medium | true | retrieval |
 | [01_CORE/DECISION_RULES.md](../01_CORE/DECISION_RULES.md) | 01_CORE | Deep reusable knowledge module | Relevant domain task | medium | true | retrieval |
 | [01_CORE/MASTER_AGENT_OPERATING_SYSTEM.md](../01_CORE/MASTER_AGENT_OPERATING_SYSTEM.md) | 01_CORE | Cross-notebook domain operating system | Complex work in the named domain | medium | true | retrieval |

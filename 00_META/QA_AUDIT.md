@@ -26,8 +26,8 @@ The local Knowledge OS passes the brief's document-level canonical threshold: no
 | Observed sources with persistent IDs/dispositions | 2,213/2,213 |
 | Expected vs observed source delta | +30 |
 | Required master/library artifacts | Present |
-| Markdown files outside working temp | 103 |
-| Markdown files with YAML frontmatter | 103/103 |
+| Markdown files outside working temp | 105 |
+| Markdown files with YAML frontmatter | 105/105 |
 | Broken internal Markdown links | 0 |
 | Secret-value patterns | 0 confirmed; one environment-variable placeholder only |
 
@@ -65,4 +65,3 @@ This caveat limits claims of exhaustive source-level interpretation, not source 
 - Meta routing, ledger, source indexes, coverage, and improvement-loop files may be canonical.
 - Notebook and synthesized knowledge files remain `status: retrieval` until NEROZARB authority, freshness, client truth, or source-specific validation promotes a rule.
 - No NotebookLM-derived NEROZARB claim is automatically current company truth.
-
